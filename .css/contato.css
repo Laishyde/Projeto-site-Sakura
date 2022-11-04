@@ -12,6 +12,7 @@ body {
 main {
     width: 100%;
     margin-top: 80px;
+   
 }
 
 header {
@@ -78,12 +79,51 @@ header {
     color: #e796e5;
     cursor: pointer;
 }
+
 /* fim do header */
-.container{
+.container {
     width: 100%;
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
 }
-.container-content{
+
+.container-content {
     display: flex;
     justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cadastro {
+    padding: 10px;
+    width: 800px;
+   padding-left: 225px;
+   
+}
+
+input {
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #ccc;
+}
+.pp{
+    padding: 45px;
+    border: 1px solid #ccc;
+}
+.btn-last{
+    margin-left: 225px;
+}
+.box-final{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.contact-2{
+    width: 800px;
+    line-height: 40px;
 }
