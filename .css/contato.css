@@ -42,7 +42,6 @@ header {
     list-style: none;
     align-items: center;
     width: 80%;
-
 }
 
 .nav-menu li {
@@ -69,7 +68,6 @@ header {
 .nav-menu a {
     text-decoration: none;
     color: #667eea;
-
 }
 
 .icon-1 i {
@@ -84,9 +82,7 @@ header {
 .container {
     width: 100%;
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-
 }
-
 .container-content {
     display: flex;
     justify-content: center;
@@ -101,8 +97,7 @@ header {
 .cadastro {
     padding: 10px;
     width: 800px;
-   padding-left: 225px;
-   
+   padding-left: 225px;   
 }
 
 input {
@@ -115,15 +110,87 @@ input {
     border: 1px solid #ccc;
 }
 .btn-last{
-    margin-left: 225px;
+    margin-left: 225px;    
 }
 .box-final{
     display: flex;
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 .contact-2{
     width: 800px;
     line-height: 40px;
+    color: #667eea;
+}
+footer {
+    display: flex;
+    border-top: 1px solid #e796e5;
+}
+
+.rodape {
+    width: 500px;
+    padding: 40px;
+    color: #667eea;
+}
+
+.rodape h2 {
+    padding: 20px;
+}
+
+.rodape i {
+    padding-left: 40px;
+    color: #667eea;
+    cursor: pointer;
+
+}
+
+form {
+    margin-left: 40px;
+    display: flex;
+}
+
+form input {
+    border: 1px solid #667eea;
+    margin-top: 18px;
+    width: 200px;
+} 
+/* Responsivo */
+@media (max-width: 1039px){
+
+    main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+            padding: 0;
+    
+        }
+                 footer {
+                     width: 100%;
+                     flex-direction: column;
+                     align-items: center;
+                 }
+                 .contact{
+                    width: 100%;
+                        flex-direction: column;
+                        align-items: center;
+                 }
+                 .contact-2{
+                    width: 100%;       
+
+                 }
+                 .box-final{
+                    flex-direction: column;
+                    align-items: center;
+                 }
+                 .cadastro{
+                padding-left: 150px;
+               
+                 }
+                 .btn-last{
+                    margin-left: 0;
+                 }
 }
