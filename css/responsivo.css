@@ -37,5 +37,12 @@
             padding: 0;
 
         }
+       .text-2{
+        line-height: 40px;
+       }
+       .container-2{
+        background-image: url(https:64.media.tumblr.com/8c1a4e5cf75b0409d641c76b920ab2c0/f463311480b42cd6-98/s540x810/b5ec8fb167cad762d85ba5482e8ba3d86659c05a.gifv);
+       }
+     
     
 }
