@@ -129,9 +129,11 @@ input {
     line-height: 40px;
     color: #667eea;
 }
+
 i {
     font-size: 25px;
 }
+
 footer {
     display: flex;
     border-top: 1px solid #e796e5;
@@ -163,6 +165,9 @@ form input {
     border: 1px solid #667eea;
     margin-top: 18px;
     width: 200px;
+}
+.icon-han {
+    display: none;
 }
 
 /* Responsivo */
@@ -207,5 +212,62 @@ form input {
 
     .btn-last {
         margin-left: 0;
+    }
+
+    .icon-han i {
+        color: #e796e5;
+        padding: 30px;
+        display: block;
+        font-size: 40px;
+    }
+
+    header {
+
+        justify-content: start;
+
+    }
+
+    .icon-han:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        padding-top: 90px;
+        position: absolute;
+        top: 83px;
+        right: 0;
+        background: rgb(238, 174, 202);
+        background: linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 0.31974788206298144) 100%);
+        border-radius: 20px;
+        padding-left: 25px;
+    }
+
+    .nav-menu a {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-menu {
+
+        flex-direction: column;
+        line-height: 60px;
+
+    }
+
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btnload {
+        margin-right: 60px;
+    }
+
+    .icon-han {
+        display: block;
     }
 }
