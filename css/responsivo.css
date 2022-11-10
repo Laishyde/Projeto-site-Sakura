@@ -30,7 +30,6 @@
 
         margin: 0px;
         padding: 0px;
-
     }
 
     main {
@@ -40,7 +39,6 @@
         align-items: center;
         margin-left: 0;
         padding: 0;
-
     }
 
     .text-1 {
@@ -77,12 +75,12 @@
         display: none;
         padding-top: 90px;
         position: absolute;
-        top:83px;
+        top: 83px;
         right: 0;
         background: rgb(238, 174, 202);
-            background: linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 0.31974788206298144) 100%);
-            border-radius: 20px;
-            padding-left: 25px;
+        background: linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 0.31974788206298144) 100%);
+        border-radius: 20px;
+        padding-left: 25px;
     }
 
     .nav-menu a {
@@ -95,7 +93,7 @@
 
         flex-direction: column;
         line-height: 60px;
-        
+
     }
 
     .nav-bar {
@@ -107,9 +105,10 @@
     .btnload {
         margin-right: 60px;
     }
-        .icon-han {
-            display: block;
-        }
+
+    .icon-han {
+        display: block;
+    }
 
 
 }
