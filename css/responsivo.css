@@ -1,48 +1,115 @@
 @media (max-width: 1039px) {
-    .box{
+    .box {
         width: 100%;
         flex-direction: column;
         align-items: center;
     }
-    .last{
+
+    .last {
         width: 100%;
-       flex-direction: column;
-       align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-    footer{
-         width: 100%;
-       flex-direction: column;
-       align-items: center;
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
-    .nav{
+
+    .nav {
         display: none;
     }
-    .container{
+
+    .container {
         width: 100%;
     }
 
-        .container-1{
-            width: 100%;
-            
-             margin: 0px;
-             padding: 0px;
-             
-        }
-        main{
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-left: 0;
-            padding: 0;
+    .container-1 {
+        width: 100%;
 
-        }
-       .text-2{
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 0;
+
+    }
+
+    .text-1 {
+        display: none;
+    }
+
+    .text-2 {
         line-height: 40px;
-       }
-       .container-2{
+    }
+
+    .container-2 {
         background-image: url(https:64.media.tumblr.com/8c1a4e5cf75b0409d641c76b920ab2c0/f463311480b42cd6-98/s540x810/b5ec8fb167cad762d85ba5482e8ba3d86659c05a.gifv);
-       }
-     
-    
+    }
+
+    .icon-han i {
+        color: #e796e5;
+        padding: 30px;
+        display: block;
+        font-size: 40px;
+    }
+
+    header {
+
+        justify-content: start;
+
+    }
+
+    .icon-han:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        padding-top: 90px;
+        position: absolute;
+        top:83px;
+        right: 0;
+        background: rgb(238, 174, 202);
+            background: linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 0.31974788206298144) 100%);
+            border-radius: 20px;
+            padding-left: 25px;
+    }
+
+    .nav-menu a {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-menu {
+
+        flex-direction: column;
+        line-height: 60px;
+        
+    }
+
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btnload {
+        margin-right: 60px;
+    }
+        .icon-han {
+            display: block;
+        }
+
+
 }

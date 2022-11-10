@@ -14,8 +14,8 @@ main{
 header{
     width: 100%;
     display: flex;
-    justify-content: center;
     height: 83px;
+    justify-content: center;
     background-color: aliceblue;
     position: fixed;
     top: 0;
@@ -191,6 +191,11 @@ form input{
   margin-top: 18px;
   width: 200px; 
 }
+.icon-han {
+   display: none;
+}
+   
+    
 
 
 

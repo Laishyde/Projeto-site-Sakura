@@ -127,6 +127,9 @@ header {
   justify-content: right;
   
 }
+i {
+    font-size: 25px;
+}
 footer {
     display: flex;
     border-top: 1px solid #e796e5;
