@@ -70,6 +70,9 @@ header {
     color: #667eea;
 
 }
+.nav-menu a:hover {
+ color: #e796e5;
+}
 
 .icon-1 i {
     width: 100px;
@@ -78,6 +81,9 @@ header {
     color: #e796e5;
     cursor: pointer;
 }
+ .icon-1 i:hover {
+ color: #667eea;
+ }
 
 /* fim do header */
 .big-img {
@@ -160,6 +166,9 @@ footer {
     color: #667eea;
     cursor: pointer;
 
+}
+.rodape i:hover {
+    color: #e796e5;
 }
 
 form {

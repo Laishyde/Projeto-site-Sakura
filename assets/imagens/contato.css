@@ -145,6 +145,9 @@ footer {
     cursor: pointer;
 
 }
+.rodape i:hover {
+    color: #e796e5;
+}
 
 form {
     margin-left: 40px;
