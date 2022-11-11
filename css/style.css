@@ -108,7 +108,9 @@ header {
     background-image: url(../assets/imagens/sakura.png);
    background-position: right center;
    background-size: cover;
-
+}
+.img-2{
+   display: none;
 }
 
 .text-1 {
