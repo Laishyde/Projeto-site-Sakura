@@ -97,7 +97,6 @@ header {
 
 .container {
    width: 72%;
-   background-color: #764ba2;
    height: 400px;
 }
 
@@ -106,7 +105,7 @@ header {
    height: 100%;
    font-weight: bold;
    line-height: 20px;
-   background-image: url(../assets/imagens/sakura.png);
+    background-image: url(../assets/imagens/sakura.png);
    background-position: right center;
    background-size: cover;
 
