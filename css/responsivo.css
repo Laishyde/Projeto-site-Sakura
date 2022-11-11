@@ -12,23 +12,41 @@
         padding: 0;
         margin-top: 50px;
         
+        
     }
-    .last img{
-        margin-left: 0 ;
+    .last-img{
+       margin-right: 0 ;
+        width: 100%;
+
+       
+    }
+    .box-1{
+        padding: 0;
+    }
+    body{
+        width: 100%;
     }
 
     footer {
         width: 100%;
         flex-direction: column;
         align-items: center;
+       padding-right: 0;
+       
 
     }
+    .rodape h2{
+       text-align: center;    
+    }
+    .rodape p{
+        text-align: center;
+    }
     .rodape{
+        padding-right: 0;
+    }
+    .social{
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        
     }
 
     .nav {
@@ -61,6 +79,11 @@
 
     .text-2 {
         line-height: 40px;
+    }
+    .container{
+        width: 100%;
+        margin-right: 0;
+       
     }
 
      .container-2 {
@@ -125,6 +148,12 @@
     .icon-han {
         display: block;
     }
+    .final{
+     margin-right: 0;
+     padding: 0;
+     width: 100%;
+    }
+   
 
 
 }
