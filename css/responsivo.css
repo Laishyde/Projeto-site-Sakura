@@ -47,6 +47,8 @@
     .social{
         display: flex;
         justify-content: center;
+        padding-right: 30px;
+        
     }
 
     .nav {
@@ -153,6 +155,9 @@
      margin-right: 0;
      padding: 40px;
      width: 100%;
+    }
+    .btn-ok{
+       margin-left: 0;
     }
    
 
