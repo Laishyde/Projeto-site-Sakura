@@ -21,7 +21,7 @@
        
     }
     .box-1{
-        padding: 0;
+        padding: 40px;
     }
     body{
         width: 100%;
@@ -159,6 +159,7 @@
     .btn-ok{
        margin-left: 0;
     }
+
    
 
 
