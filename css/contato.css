@@ -269,6 +269,9 @@ form input {
         display: flex;
         flex-direction: column;
     }
+        .nav-menu a:hover {
+            color: #667eea;
+        }
 
     .nav-menu {
 

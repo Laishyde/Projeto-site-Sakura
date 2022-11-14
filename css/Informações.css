@@ -111,11 +111,15 @@ header {
     width: 80%;
     padding-top: 50px;
     line-height: 25px;
+    color: #667eea;;
 }
 
 .App h1 {
     padding: 25px;
     font-size: 45px;
+    color: #667eea;
+            
+       
 }
 
 .Image {
@@ -140,6 +144,7 @@ header {
     width: 700px;
     padding-top: 50px;
     line-height: 25px;
+    color: #667eea;;
 }
 
 .gif {
@@ -278,6 +283,9 @@ form input {
         display: flex;
         flex-direction: column;
     }
+        .nav-menu a:hover {
+            color: #667eea;
+        }
 
     .nav-menu {
 
